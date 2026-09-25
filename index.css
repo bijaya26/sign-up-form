@@ -1,0 +1,85 @@
+.login-page{
+    display:flex;
+    flex-direction:row;
+
+}
+.lefthand-image{
+    background-image:url(media/leaf.avif);
+    background-size:cover;
+    background-position:center;
+    width:40%;
+    height:100vh;
+    padding-right:10px;
+}
+.wright-hand{
+    width:60%;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    align-items:space-between;
+    background-color:RGB(255, 253, 228);
+    gap:5%;
+    justify-content:center;
+
+
+}
+
+.login-form{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px 20px;
+
+}
+.login-control{
+    display:flex;
+    flex-direction:column;
+}
+.login-details{
+    display:flex;
+    flex-direction:column;
+    gap:60px;
+  
+    
+}
+
+.create-account{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    padding:0 40px;
+}
+
+.fields{
+    box-sizing:border-box;
+    width:100%;
+    padding:30px 40px;
+    background-color: #fff;
+    border-top: 1px solid #BFBFBF;
+    border-bottom: 1px solid #BFBFBF;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.15);
+    
+}
+.initial-paragraph{
+    padding:0 40px;
+}
+
+.logo{
+    height:100px;
+    width:100%;
+    border:1px solid black;
+    background-color:rgba(0, 0, 0, 0.5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+img{
+    height:75px;
+    width:75px;
+}
+
+.lefthand-image{
+    display:flex;
+    align-items:center;
+}
